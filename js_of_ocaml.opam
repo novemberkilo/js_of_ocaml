@@ -19,6 +19,7 @@ depends: [
   "ppx_expect" {>= "v0.14.2" & with-test}
   "re" {>= "1.9.0" & with-test}
   "odoc" {with-doc}
+  "conf-npm" {with-test}
 ]
 dev-repo: "git+https://github.com/ocsigen/js_of_ocaml.git"
 build: [
